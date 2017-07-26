@@ -1,0 +1,127 @@
+
+.container {
+	position: relative;
+}
+
+.help-button {
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
+
+.card {
+	width: 200px;
+}
+
+.card-image {
+	width: 100%;
+}
+
+.segment {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 5px;
+	margin: 2px;
+}
+
+.card.bronze .segment {
+	border-left: 2px solid #85634A;
+}
+
+.card.silver .segment {
+	border-left: 2px solid #C5C5C5;
+}
+
+.card.gold .segment, .card.leader .segment {
+	border-left: 2px solid #E5AF1E;
+}
+
+.card-name {
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.card-subtypes {
+	text-align: center;
+}
+
+.card-text p {
+	margin: 0;
+	font-size: 11px;
+}
+
+.picker-column {
+	position: absolute;
+	left: 0;
+	right: 260px;
+}
+
+.picker-header {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.picker {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.picker-card-container {
+	margin: 20px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.picker-card-container:hover {
+	background-color: #444;
+}
+
+.picker-card-container.chosen {
+	background-color: #4D8847;
+}
+
+.picker-card-container.chosen:hover {
+	background-color: #396535;
+}
+
+.decklist-column {
+	position: absolute;
+	right: 0;
+	width: 250px;
+}
+
+.decklist-card {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 5px;
+	margin: 2px;
+	cursor: default;
+}
+
+.decklist-card-count {
+	float: right;
+}
+
+.decklist-card.bronze {
+	border-left: 2px solid #85634A;
+}
+
+.decklist-card.silver {
+	border-left: 2px solid #C5C5C5;
+}
+
+.decklist-card.gold, .decklist-card.leader {
+	border-left: 2px solid #E5AF1E;
+}
+
+.card-tooltip.show {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+	opacity: 1 !important;
+}
+
+.card-tooltip.show:after {
+	border-bottom-color: rgba(0, 0, 0, 0.6) !important;
+}

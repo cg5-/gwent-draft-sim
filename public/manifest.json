@@ -1,0 +1,8 @@
+{
+  "short_name": "Gwent Draft Sim",
+  "name": "Gwent Draft Simulator",
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
