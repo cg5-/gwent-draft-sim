@@ -38,8 +38,8 @@ class App extends Component {
 				<Button bsClass="btn help-button" onClick={() => this.setState({showModal: true})}><Glyphicon glyph="question-sign" /></Button>
 				<h1>Gwent Draft Simulator</h1>
 				<div className="picker-column">
-				<p className="picker-header">{state.header}</p>
-				{state.done ? null : <Picker cards={state.cards} toChoose={state.toChoose} onComplete={this.pickerCompleted.bind(this)} />}
+					<p className="picker-header">{state.header}</p>
+					{state.done ? null : <Picker cards={state.cards} toChoose={state.toChoose} onComplete={this.pickerCompleted.bind(this)} />}
 				</div>
 				<div className="decklist-column">
 					<Decklist cards={state.decklist} />
