@@ -1,2 +1,2 @@
 
-https://cgfive.github.io/gwent-draft-simulator
+https://cgfive.github.io/gwent-draft-simulator/
